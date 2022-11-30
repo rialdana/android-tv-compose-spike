@@ -6,9 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.ui.Modifier
 import com.example.androidtvspike.ui.theme.AndroidTVSpikeTheme
+import com.example.androidtvspike.ux.tv.home.HomeScreen
 
 class MainActivity : ComponentActivity() {
 
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    Text(text = "Hello, TV!")
+                    HomeScreen()
                 }
             }
         }

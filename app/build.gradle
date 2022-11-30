@@ -58,6 +58,7 @@ dependencies {
     implementation 'androidx.compose.material3:material3'
     implementation 'androidx.tv:tv-foundation:1.0.0-alpha02'
     implementation 'androidx.tv:tv-material:1.0.0-alpha02'
+    implementation 'io.coil-kt:coil-compose:2.2.2'
 
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
